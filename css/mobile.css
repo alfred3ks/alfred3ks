@@ -10,9 +10,9 @@ body {
 }
 
 /* Header */
-.container {
+.container-header {
     width: 100%;
-    min-width: 320px;
+    min-width: 310px;
     height: 85px;
     display: flex;
     align-items: center;
@@ -25,25 +25,25 @@ body {
 }
 
 /* Container title */
-.container__title {
+.container-header__title {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.container__title-name {
+.container-header__title-name {
     display: none;
 }
 
-.container__title-img {
+.container-header__title-img {
     width: 65px;
     height: 65px;
 }
-.container__title-img img {
+.container-header__title-img img {
     border-radius: 50px;
 }
 
-.container__button {
+.container-header__button {
     width: 45px;
     height: 35px;
     border: none;
@@ -57,9 +57,9 @@ body {
     justify-content: space-evenly;
 }
 
-.header__nav-button-1,
-.header__nav-button-2,
-.header__nav-button-3 {
+.container-header__button-1,
+.container-header__button-2,
+.container-header__button-3 {
     display: inline-block;
     width: 50%;
     height: 2.5px;
@@ -68,20 +68,20 @@ body {
 }
 
 /* Transformación menu hamburguesa */
-.change .header__nav-button-1 {
+.change .container-header__button-1 {
     transform: translateY(7px) rotateZ(45deg);
 }
 
-.change .header__nav-button-2 {
+.change .container-header__button-2 {
     opacity: 0;
 }
 
-.change .header__nav-button-3 {
+.change .container-header__button-3 {
     transform: translateY(-7px) rotateZ(-45deg);
 }
 
 /* Nav web */
-.container__nav {
+.container-header__nav {
     width: 75vw;
     height: 100vh;
     position: fixed;
@@ -92,7 +92,7 @@ body {
     transition: transform 0.5s ease;
 }
 
-.container__nav ul {
+.container-header__nav ul {
     height: 65vh;
     list-style: none;
     padding-left: 15px;
@@ -104,17 +104,17 @@ body {
     padding-right: 0;
 }
 
-.container__nav ul a {
+.container-header__nav ul a {
     font-size: 1.6rem;
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.container__nav ul a:hover {
+.container-header__nav ul a:hover {
     color: var(--color-text);
 }
 
-.container__nav-latest {
+.container-header__nav-latest {
     border: var(--color-text) solid 1px;
     border-radius: 4px;
     padding: 10px;
@@ -125,3 +125,79 @@ body {
 .change__menu {
     transform: translateX(-77vw);
 }
+
+/* About */
+
+.about  {
+    width: 100%;
+    background-color: var(--color-primary);
+    padding: 5px;
+    padding-bottom: 2.5px;
+    margin: 0 auto;
+}
+
+.about-container {
+    width: 100%;
+    min-width: 310px;
+    position: relative;
+    top:90px;
+    background-color: var(--color-secondary);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.about-container__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-container__content-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url('../assets/img/alfredo-sanchez.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+}
+
+.about-container__content-title {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.about-container__content-title span {
+    color: var(--color-text);
+}
+
+.about-container__content-desc {
+    font-size: 1.8rem;
+    line-height: 25px;
+    color: #FFFFFF;
+        margin-bottom: 25px;
+}
+
+.about-container__text {
+    font-size: 1.6rem;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 7px;
+    margin-bottom: 25px;
+}
+
+.about-container__contact {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-container__contact a {
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
