@@ -17,6 +17,13 @@
 
 .about-container__header {
     width: 50%;
+    padding-top: 50px;
+}
+
+.about-container__header-img {
+    width: 200px;
+    height: 200px;
+
 }
 
 .about-container__text {

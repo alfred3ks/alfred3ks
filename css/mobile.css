@@ -135,7 +135,8 @@ body {
     height: auto;
     background-color: var(--color-primary);
     margin-top: 85px;
-    padding:5px;
+    padding:10px;
+    padding-top: 13px;
 }
 
 .about-container {
@@ -153,13 +154,14 @@ body {
 }
 
 .about-container__header-img {
-    width: 130px;
-    height: 130px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     background-image: url('../assets/img/alfredo-sanchez.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -183,13 +185,13 @@ body {
     font-size: 1.6rem;
     line-height: 25px;
     color: #FFFFFF;
-    padding: 7px;
     margin-bottom: 25px;
 }
 
 .about-container__contact {
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
+    margin-bottom: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -197,65 +199,4 @@ body {
 .about-container__contact a {
     font-size: 2.5rem;
     color: #FFFFFF;
-}
-
-/* Boton de ir arriba */
-.button__up {
-    position: fixed;
-    bottom:2rem;
-    right: 2rem;
-    width: 3rem;
-    height: 3rem;
-    z-index: -1;
-}
-
-.button__up-top {
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    cursor: pointer;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
-
-.button__up-top i {
-    position: absolute;
-    font-size: 1.7rem;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: var(--color-secondary);
-    transition: 0.2s;
-}
-
-.show {
-    z-index: 10;
-}
-
-.show i {
-    transform: translate(-50%, -50%) scale(1);
-}
-
-.show .button__up-top {
-    animation: popup 0.3s ease-in-out;
-    width: 5rem;
-    height: 5rem;
-    z-index: 11;
-}
-
-@keyframes popup {
-    0% {
-        width: 0rem;
-        height: 0rem;
-    }
-    50% {
-        width: 6rem;
-        height: 6rem;
-    }
-
-    100% {
-        width: 5rem;
-        height: 5rem;
-    }
 }
