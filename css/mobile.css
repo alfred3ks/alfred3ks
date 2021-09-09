@@ -6,9 +6,8 @@
 }
 
 body {
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
 }
-
 
 /* Header */
 .container-header {
@@ -91,7 +90,7 @@ body {
     z-index: 2;
     top: 85px;
     right:-77vw;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     transition: transform 0.7s ease;
 }
 
@@ -133,14 +132,14 @@ body {
     width: 100%;
     min-width: 320px;
     height: auto;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     margin-top: 85px;
     padding:10px;
     padding-top: 13px;
 }
 
 .about-container {
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     padding: 15px 20px;
     border-radius: 5px;
 }
