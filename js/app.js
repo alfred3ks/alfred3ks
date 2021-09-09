@@ -2,7 +2,6 @@
 const button = document.getElementById('button');
 const list= document.getElementById('list');
 const ul = document.getElementById('list__hide');
-const button_up = document.getElementById('button__up');
 
 const change = ()=>{
     button.classList.toggle('change')
