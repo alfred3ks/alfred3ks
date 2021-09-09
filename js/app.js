@@ -12,18 +12,18 @@ const change = ()=>{
 button.addEventListener('click', change);
 ul.addEventListener('click', change);
 
-
 // Botton volver arriba
-// agregamos los estilos al boton de volver
+// Agrego los estilos al boton de volver
 const add = ()=>{
     button_up.classList.add('show');
 }
 
-// Le quitamos los estilos
+// Le quito los estilos
 const remove = ()=>{
     button_up.classList.remove('show');
 }
 
+// Creo la funcion para que se haga scroll al inicio
 const volverUp = ()=>{
     console.log('click');
     window.scrollTo({
