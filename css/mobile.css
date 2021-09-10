@@ -199,3 +199,84 @@ body {
     font-size: 2.5rem;
     color: #FFFFFF;
 }
+
+/* Proyectos */
+.title-card {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.card  {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: var(--color-secondary);
+    padding:10px;
+    padding-top: 13px;
+}
+
+.card-container {
+    background-color: var(--color-primary);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.card-container__img {
+    width: 100%;
+}
+
+.card-container__img img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-container__description {
+    width: 70%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container__description p {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+}
+
+.card-container__title {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.card-container__text {
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.card-container__button {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container_button-demo,
+.card-container_button-code {
+    width: 60px;
+    height: 35px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 3px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
