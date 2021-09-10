@@ -189,10 +189,9 @@ body {
 
 .about-container__contact {
     width: 250px;
-    margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .about-container__contact a {
@@ -209,7 +208,7 @@ body {
     padding: 10px 0;
 }
 
-.card  {
+.card {
     width: 100%;
     min-width: 320px;
     height: auto;
