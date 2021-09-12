@@ -216,6 +216,12 @@ body {
     background-color: var(--color-secondary);
     padding:10px;
     padding-top: 13px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    filter: opacity(0.85);
+    transform: scale(1.025);
 }
 
 .card-container {
