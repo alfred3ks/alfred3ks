@@ -15,8 +15,7 @@ const change = ()=>{
 button.addEventListener('click', change);
 ul.addEventListener('click', change);
 
-// Funcion al hacer click en el menu
-
+// Funcion para saber el scroll
 window.onscroll = function(){
     const scroll = document.documentElement.scrollTop;
     console.log(scroll);
@@ -35,7 +34,7 @@ about.addEventListener('click', sobreMi);
 // Ir a proyectos
 const irProjects = ()=>{
         window.scrollTo({
-        top:548,
+        top:784,
         behavior:'smooth'
     })
 }
