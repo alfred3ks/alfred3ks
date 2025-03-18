@@ -1,30 +1,32 @@
-# **¡Bienvenido a mi espacio en GitHub! 🌟**
+## **¡Bienvenido a mi espacio en GitHub! 🌟**
 
-## **¡Hola! Soy Alfredo Sánchez 👋**
+### **¡Hola! Soy Alfredo Sánchez 🦅**
 
-Bienvenido a mi perfil de GitHub.
 Soy un desarrollador web apasionado por crear aplicaciones funcionales y eficientes.
 Aquí encontrarás mis proyectos personales, colaboraciones y experimentos con tecnologías web.
 
-## **Sobre mí**
+### **Sobre mí**
 
-- 💻 Actualmente trabajando con **React** y explorando el ecosistema de JavaScript.
+- 💻 Actualmente trabajando con **React** y explorando el ecosistema de JavaScript y TypeScript.
 - 🚀 En proceso de montar mi propia empresa de desarrollo web.
-- ✍️ Compartiendo contenido sobre JavaScript en **Twitter: [@alfred3ks](https://twitter.com/alfred3ks)**.
-- 🎯 Interesado en tecnologías frontend y backend.
+- 🎯 Interesado en tecnologías Frontend y Backend.
 
-## **Tecnologías y herramientas**
+### **Tecnologías y herramientas**
 
 - **Frontend**: React, JavaScript (ES6+), HTML5, CSS3, Tailwind.
 - **Backend**: Node.js, Express.
 - **Bases de datos**: MongoDB, MySQL.
-- **Otras herramientas**: Git, VS Code, Docker.
+- **Otras herramientas**: Git, VSCode, Docker.
 
-## **Contacto**
+### **Portfolio**
 
-- 🐦 Sígueme en Twitter: [@alfred3ks](https://twitter.com/alfred3ks)
+- 🎯 GitHub: https://alfred3ks.github.io/
 
-## **Gracias por visitarme**
+### **Contacto**
+
+- 📫 Correo: alfred3ks@proton.me
+
+### **Gracias por visitarme**
 
 Si te gustan mis proyectos o ideas, no dudes en ⭐️ mis repositorios.
 ¡Siempre estoy abierto a nuevas colaboraciones!
